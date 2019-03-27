@@ -1,6 +1,6 @@
 # About
 
-This is the source code for [Jeff-Duan's personal website/blog](https://jeff-duan.github.io/ "https://jeff-duan.github.io/"). It uses [Jekyll](https://jekyllcn.com/) to transform the content of this repo into the static site hosted at [jeff-duan.github.io](https://jeff-duan.github.io/ "https://jeff-duan.github.io/").
+This is the source code for [Jeff-Duan's personal website/blog](https://Jeff-Duan.github.io/ "https://Jeff-Duan.github.io/"). It uses [Jekyll](https://jekyllcn.com/) to transform the content of this repo into the static site hosted at [Jeff-Duan.github.io](https://jeff-duan.github.io/ "https://Jeff-Duan.github.io/").
 
 Shout-out to [barepants/crossing-jekyll](https://github.com/barepants/crossing-jekyll) for the [theme](https://github.com/jekyll/jekyll/wiki/Themes) that provides the majority of the site's design.
 
@@ -8,7 +8,7 @@ Shout-out to [barepants/crossing-jekyll](https://github.com/barepants/crossing-j
 
 To hack on this site locally, clone the repository and run:
 
-    /bin/bash run.sh
+    /bin/bash script/run.sh
 
 This command installs all dependencies and starts serving the site locally at http://0.0.0.0:4000/.
 
