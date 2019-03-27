@@ -1,0 +1,268 @@
+- name: "TRI REST"
+  date: 2015-09-01
+  location: Cary, NC
+  talks:
+    - url: http://www.meetup.com/TRI-REST/events/225101366/
+      title: "The Heroku HTTP API Toolchain"
+
+- name: "Python Namibia"
+  date: 2015-02-01
+  location: Windhoek, Namibia
+  talks:
+    - url: http://python-namibia.org/event/introduction-git-and-github/
+      title: "Introduction to Git and GitHub"
+  copresenters:
+    - name: Shay Frendt
+      url: https://twitter.com/shayfrendt
+
+- name: "YaC"
+  date: 2013-10-01
+  location: Moscow, Russia
+  talks:
+    - url: http://tech.yandex.ru/events/yac/2013/talks/1100/
+      title: "API Design at GitHub"
+
+- name: "Triangle API"
+  date: 2013-09-01
+  location: Raleigh, NC
+  talks:
+    - url: http://www.meetup.com/TriangleAPI/events/136703312/
+      title: "API Design at GitHub"
+
+- name: "REST Fest"
+  date: 2013-09-01
+  location: Greenville, SC
+  talks:
+    - url: https://vimeo.com/75106817
+      title: "Beta Like You Mean It"
+
+- name: "Triangle Clojure User Group"
+  date: 2012-07-01
+  location: Durham, NC
+  talks:
+    - url: http://www.meetup.com/TriClojure/events/71707312/
+      title: "A ClojureScript Experience Report"
+
+- name: "Raleigh Ruby Brigade (raleigh.rb)"
+  date: 2009-07-01
+  location: Raleigh, NC
+  talks:
+    - url: http://www.meetup.com/raleighrb/calendar/10355088
+      title: "Javascript Testing in Rails: Fast, Headless, In-browser. Pick Any Three"
+  copresenters:
+    - name: Larry Karnowski
+      url: https://twitter.com/karnowski
+
+- name: "RailsConf"
+  date: 2009-05-01
+  location: Las Vegas, NV
+  talks:
+    - url: http://en.oreilly.com/rails2009/public/schedule/detail/8013
+      title: "Javascript Testing in Rails: Fast, Headless, In-browser. Pick Any Three"
+  copresenters:
+    - name: Larry Karnowski
+      url: https://twitter.com/karnowski
+
+- name: "Developer Day"
+  date: 2009-03-01
+  location: Durham, NC
+  talks:
+    - url: http://speakerrate.com/talks/282-evolving-your-git-workflow
+      title: "Evolving Your Git Workflow"
+
+- name: "Raleigh RubyCamp"
+  date: 2008-10-01
+  location: Raleigh, NC
+  talks:
+    - url: http://blog.thinkrelevance.com/2008/10/15/refactotum-coming-to-raleigh-ruby-camp
+      title: "Refactotum"
+
+- name: "Software Test &amp; Performance Conference"
+  date: 2008-09-01
+  location: Boston, MA
+  talks:
+    - url: /blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/
+      title: "How to Fail With 100% Test Coverage"
+
+- name: "Raleigh Ruby Brigade (raleigh.rb)"
+  date: 2008-08-01
+  location: Raleigh, NC
+  talks:
+    - url: http://www.meetup.com/raleighrb/calendar/7849526/?eventId=7849526&action=detail
+      title: "How to Fail With 100% Test Coverage"
+
+- name: "Agile RTP"
+  date: 2008-07-01
+  location: Raleigh, NC
+  talks:
+    - url: http://agile.meetup.com/29/calendar/7707801/
+      title: "How to Fail With 100% Test Coverage"
+
+- name: "Research Triangle Software Symposium (NFJS)"
+  date: 2008-June-01
+  location: Raleigh, NC
+  talks:
+    - url: http://www.nofluffjuststuff.com/conference/raleigh/2008/06/session?id=10357
+      title: "How to Fail With 100% Test Coverage"
+
+- name: "RailsConf"
+  date: 2008-05-01
+  location: Portland, OR
+  talks:
+    - url: http://en.oreilly.com/rails2008/public/schedule/detail/2101
+      title: "Refactotum: Contributing to Open Source"
+  copresenters:
+    - name: Stuart Halloway
+      url: https://twitter.com/stuarthalloway
+    - name: Justin Gehtland
+      url: https://twitter.com/jgehtland
+    - name: Glenn Vanderburg
+      url: http://vanderburg.org/
+    - name: Rob Sanheim
+      url: https://twitter.com/rsanheim
+
+- name: "Groovy/Grails Experience (2GX)"
+  date: 2008-02-01
+  location: Reston, VA
+  talks:
+    - url: /blog/2008/02/24/refactotum-2gx-edition/
+      title: "Refactotum"
+    - url: /blog/2007/12/20/2gx-next-gen-java-conference-is-right-around-the-corner/
+      title: "Going Further with Grails"
+    - url: /blog/2007/12/20/2gx-next-gen-java-conference-is-right-around-the-corner/
+      title: "Bending GORM: 5-minute Techniques for Enterprise Integration"
+
+- name: "QCon"
+  date: 2007-11-01
+  location: San Francisco, CA
+  talks:
+    - url: http://qconsf.com/sf2007/presentation/Getting+Started+with+Grails
+      title: "Getting Started with Grails"
+
+- name: "Northern Virginia Software Symposium (NFJS)"
+  date: 2007-11-01
+  location: Reston, VA
+  talks:
+    - url: http://www.nofluffjuststuff.com/conference/reston/2007/11/session?id=8669
+      title: "Getting Started with Grails"
+    - url: http://www.nofluffjuststuff.com/conference/reston/2007/11/session?id=8670
+      title: "Going Further with Grails"
+    - url: http://www.nofluffjuststuff.com/conference/reston/2007/11/session?id=8671
+      title: "Advanced Domain Models in Grails: Enterprise Integration Made Easy"
+
+- name: "NYC Web 2.0 Meetup"
+  date: 2007-Ocotber-01
+  location: New York, NY
+  talks:
+    - url: /blog/2007/10/22/web-20-meetup-in-nyc-tonight-the-prophecy-of-grails-2/
+      title: "The Prophecy of Grails"
+
+- name: "Grails eXchange"
+  date: 2007-10-01
+  location: London, England
+  talks:
+    - url: /blog/2007/10/15/ejb3-domain-classes-presentation-at-grails-exchange-slides-sample-code-rampant-agnosticism/
+      title: "Legacy Database Integration with Hibernate and Grails"
+    - url: /blog/2007/10/15/ejb3-domain-classes-presentation-at-grails-exchange-slides-sample-code-rampant-agnosticism/
+      title: "EJB3 Entities and Grails"
+
+- name: "Northern Virginia Java Users Group"
+  date: 2007-10-01
+  location: Reston, VA
+  talks:
+    - url: http://mcqueeney.com/roller/page/tom?entry=grails_with_jason_rudolph
+      title: "Getting Started with Grails"
+
+- name: "Greater Atlanta Software Symposium (NFJS)"
+  date: 2007-10-01
+  location: Atlanta, GA
+  talks:
+    - url: http://www.nofluffjuststuff.com/conference/atlanta/2007/10/session?id=8198
+      title: "Getting Started with Grails"
+    - url: http://www.nofluffjuststuff.com/conference/atlanta/2007/10/session?id=8199
+      title: "Going Further with Grails"
+    - url: http://www.nofluffjuststuff.com/conference/atlanta/2007/10/session?id=8210
+      title: "Advanced Domain Models in Grails: Enterprise Integration Made Easy"
+
+- name: "New England Software Symposium (NFJS)"
+  date: 2007-09-01
+  location: Boston, MA
+  talks:
+    - url: http://www.nofluffjuststuff.com/conference/boston/2007/09/session?id=7841
+      title: "Getting Started with Grails"
+    - url: http://www.nofluffjuststuff.com/conference/boston/2007/09/session?id=7842
+      title: "Advanced Domain Models in Grails: Enterprise Integration Made Easy"
+
+- name: "Atlantic Northeast Software Symposium (NFJS)"
+  date: 2007-08-01
+  location: Princeton, NJ
+  talks:
+    - url: http://www.nofluffjuststuff.com/conference/princeton/2007/08/session?id=7410
+      title: "Getting Started with Grails"
+    - url: http://www.nofluffjuststuff.com/conference/princeton/2007/08/session?id=7411
+      title: "Advanced Domain Models in Grails: Enterprise Integration Made Easy"
+
+- name: "BarCamp RDU"
+  date: 2007-08-01
+  location: Raleigh, NC
+  talks:
+    - url: http://www.barcamp.org/BarCampRDU
+      title: "Getting Started with Grails"
+
+- name: "Research Triangle Software Symposium (NFJS)"
+  date: 2007-07-01
+  location: Raleigh, NC
+  talks:
+    - url: http://www.nofluffjuststuff.com/conference/raleigh/2007/07/session?id=7130
+      title: "Getting Started with Grails"
+    - url: http://www.nofluffjuststuff.com/conference/raleigh/2007/07/session?id=7131
+      title: "Advanced Domain Models in Grails: Enterprise Integration Made Easy"
+
+- name: "Triangle Java Users Group"
+  date: 2007-June-01
+  location: Raleigh, NC
+  talks:
+    - url: http://trijug.org/meetinginfo.jsp?date=2007-06
+      title: "Getting Started with Grails"
+
+- name: "Princeton Java Users Group"
+  date: 2007-June-01
+  location: Princeton, NJ
+  talks:
+    - url: /blog/2007/05/30/groovy-grails-double-header-at-princeton-jug/
+      title: "Getting Started with Grails"
+
+- name: "Groovy/Grails Meet-up (G2One)"
+  date: 2007-05-01
+  location: San Francisco, CA
+  talks:
+    - url: /blog/2007/05/01/javaone-preloaded-a-groovygrails-special-event/
+      title: "Grails + Legacy Databases"
+
+- name: "Richmond Java User Group"
+  date: 2007-03-01
+  location: Richmond, VA
+  talks:
+    - url: /blog/2007/03/21/slides-from-virginia-java-user-group-presentations/
+      title: "Getting Started with Grails"
+
+- name: "Southeast Virginia Java Users Group"
+  date: 2007-03-01
+  location: Norfolk, VA
+  talks:
+    - url: /blog/2007/03/21/slides-from-virginia-java-user-group-presentations/
+      title: "Getting Started with Grails"
+
+- name: "Charlotte Java User Group"
+  date: 2007-02-01
+  location: Charlotte, NC
+  talks:
+    - url: http://www.charlottejug.org/2007/02/03/jason-rudolph-talks-about-grails/
+      title: "Getting Started with Grails"
+
+- name: "Philadelphia Spring Users Group"
+  date: 2007-01-01
+  location: Philadelphia, PA
+  talks:
+    - url: /blog/2007/01/12/upcoming-grails-presentation-in-philadelphia/
+      title: "Getting Started with Grails"

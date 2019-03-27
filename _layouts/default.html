@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      {% include site-nav.html %}
+
+      <h1 class="site-title">
+        <a href="{{ site.baseurl }}/">{{ site.title | xml_escape }}</a>
+      </h1>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      {% include footer-links.html %}
+      <a class="license" rel="license" title="Some Rights Reserved — Creative Commons License" href="https://github.com/jasonrudolph/jasonrudolph.com/blob/master/README.md#license">
+        <span class="icon-cc"></span>
+        {{ site.time | date: "%Y" }}
+      </a>
+      Jeff Duan
+    </div>
+  </footer>
+
+  <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+  <script>
+    (function ($) {
+      var $siteNav = $('.site-nav');
+      var $siteNavToggle = $('.site-nav-toggle');
+
+      $siteNavToggle.click(function () {
+        $siteNav.toggleClass('is-toggled');
+      });
+
+      $('.post-content').fitVids();
+    }(jQuery));
+  </script>
+
+</body>
+</html>
