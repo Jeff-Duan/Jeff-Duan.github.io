@@ -22,7 +22,6 @@ redirect_from: /blog/
           </a>
         </h2>
       </header>
-      <!-- {% increment post_index %} -->
       {% if post_index <= 10 %}
         <div class="post-excerpt" itemprop="description">
           {{ post.excerpt | strip_html }} <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">…</a>

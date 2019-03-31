@@ -54,16 +54,7 @@ layout: default
 <nav class="read-next">
   <h2 class="read-next-label">Other posts you might enjoy</h2>
   <ul>
-    {% comment %}
-      If this post's front matter specifies any recommended posts, list those
-      recommendations first. Put the site-wide recommendations after the
-      post-specific recommendations.
-    {% endcomment %}
     {% if page.recommended_posts.size > 0 %}
-      {% comment %}
-        Once Jekyll adopts Liquid 4, replace the hackery below with `concat`.
-        http://stackoverflow.com/a/40264338/929066
-      {% endcomment %}
       {% assign recommended_posts = page.recommended_posts %}
       {% for post in site.recommended_posts %}
         {% assign recommended_posts = recommended_posts | push: post %}

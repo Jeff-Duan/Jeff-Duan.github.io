@@ -1,0 +1,10 @@
+---
+title: "初识ssh协议"
+layout: post
+tags:
+- ssh
+---
+
+&emsp;工作中涉及维护几百台编译服务器，利用ssh保护网络必不可少。最近系统的学习了[ssh权威指南](/downloads/resource/ssh/ssh权威指南.pdf)，写一篇文章与大家分享一下，如何利用ssh保护网络的安全。
+
+

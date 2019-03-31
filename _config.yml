@@ -14,7 +14,7 @@ baseurl: ""
 image: ""
 
 # The shortname for your Disqus site to enable comments/您的Disqus网站简称
-# disqus_shortname: ""
+disqus_shortname: 
 
 # Your Google Analytics tracking code
 google_analytics_tracking_id: ""
@@ -38,7 +38,7 @@ author:
 
 # The "read next" posts to recommend at the bottom of each post/帖子底部添加"可能喜欢的其他帖子"
 recommended_posts:
-  - url: /blog/2019/03/23/我的第一篇帖子/
+  - url: '/blog/2019/03/31/初识ssh协议/'
 
 # Extra Open Graph and Twitter Cards settings for social sharing
 
@@ -49,6 +49,7 @@ og_image:
 # twitter:site. Your Twitter username without "@"
 twitter_site: duanjianhui
 
+Encoding: "utf-8"
 permalink: pretty
 markdown: kramdown
 kramdown:
