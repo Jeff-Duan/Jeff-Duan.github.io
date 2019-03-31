@@ -1,8 +1,8 @@
-# Site title/网站标题 
-title: "Jeff-Duan's Blog"
+# Site title/网站标题
+title: "Jeff Duan's Blog"
 
 # A description of your site for social meta tag and search engines/网站描述
-description: "Jeff Duan - Programmer, consultant, speaker, and author specializing in Ruby and Rails"
+description: "Jeff Duan's Blog - record and share your learning process."
 
 # The base hostname & protocol of your site for where absolute urls are needed/网址
 url: "http://Jeff-Duan.github.io"
@@ -11,10 +11,10 @@ url: "http://Jeff-Duan.github.io"
 baseurl: ""
 
 # The site cover image on the home page/封面图片
-image: ''
+image: ""
 
 # The shortname for your Disqus site to enable comments/您的Disqus网站简称
-disqus_shortname: ''
+# disqus_shortname: ""
 
 # Your Google Analytics tracking code
 google_analytics_tracking_id: ""
@@ -22,28 +22,23 @@ google_analytics_tracking_id: ""
 # Site navigation/网站导航
 nav:
   - title: "Home"
-    url:   "/"
+    url: "/"
   - title: "Talks"
-    url:   "/events"
-  - title: "About"
-    url:   "/about"
+    url: "/talks"
   - title: "Downloads"
-    url:   "/downloads"
+    url: "/downloads"
+  - title: "About"
+    url: "/about"
 
 # Author information
 author:
   name: Jeff-Duan
-  bio: Engineer at GitHub, runner, world traveler, and aspiring cookist
-  avatar: /images/jasonrudolph.jpg
+  bio: I'm Jeff-Duan.
+  avatar: /static/images/Jeff-Duan.jpeg
 
 # The "read next" posts to recommend at the bottom of each post/帖子底部添加"可能喜欢的其他帖子"
 recommended_posts:
-  - url: /blog/2014/03/02/defining-atom-commands-in-your-init-script/
-  - url: /blog/2013/01/23/as-creative-as-we-make-time-to-be/
-  - url: /blog/2011/08/09/programming-achievements-how-to-level-up-as-a-developer/
-  - url: /blog/2009/05/27/git-up-10-reasons-to-upgrade-your-old-git-installation/
-  - url: /blog/2008/06/17/testing-anti-patterns-incidental-coverage/
-  - url: /blog/2012/09/11/clojurescript-4-things-that-might-worry-you-but-should-not/
+  - url: /blog/2019/03/23/我的第一篇帖子/
 
 # Extra Open Graph and Twitter Cards settings for social sharing
 

@@ -3,6 +3,6 @@ layout: page
 title: Downloads
 ---
 
-[Getting Started with Grails - Source Code](gswg)
+[Resource](resource)
 
 [Presentations](presentations)
