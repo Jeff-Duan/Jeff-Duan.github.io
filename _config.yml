@@ -38,7 +38,7 @@ author:
 
 # The "read next" posts to recommend at the bottom of each post/帖子底部添加"可能喜欢的其他帖子"
 recommended_posts:
-  - url: '/blog/2019/03/31/初识ssh协议/'
+  - url: '/blog/2019/03/23/opening/'
 
 # Extra Open Graph and Twitter Cards settings for social sharing
 
