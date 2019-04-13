@@ -38,7 +38,10 @@ author:
 
 # The "read next" posts to recommend at the bottom of each post/帖子底部添加"可能喜欢的其他帖子"
 recommended_posts:
-  - url: "/blog/2019/03/23/opening/"
+  - url: "/blog/2019/03/31/ssh_start/"
+  - url: "/blog/2019/04/06/ssh_authorize/"
+  - url: "/blog/2019/04/12/ssh_ssh-keygen/"
+  - url: "/blog/2019/04/13/ssh_ssh-agent/"
 
 # Extra Open Graph and Twitter Cards settings for social sharing
 

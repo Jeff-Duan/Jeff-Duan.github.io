@@ -11,7 +11,7 @@ layout: null
   <id>http://Jeff-Duan.github.io/</id>
   <author>
     <name>Jeff Duan</name>
-    <email>1191837698@qq.com</email>
+    <email>duanjianhui.me@gmail.com</email>
   </author>
 
   {% for post in site.posts limit:10 %}
