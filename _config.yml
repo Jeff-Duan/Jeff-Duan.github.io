@@ -61,3 +61,4 @@ kramdown:
   syntax_highlighter: rouge
 gems:
   - jekyll-redirect-from
+port: 4000
