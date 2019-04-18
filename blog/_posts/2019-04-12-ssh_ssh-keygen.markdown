@@ -10,10 +10,10 @@ tags:
 
   SSH1 、 SSH2 、 OpenSSH 都是使用 ssh-keygen 来做密钥生成器。<br>
 
-  ssh-keygen 命令用于为 ssh 生成、管理和转换认证密钥，它支持 RSA 和 DSA 两种认证密钥。（较新的 OpenSSH 版本中，可以使用 ECDSA 密钥，这种数字签名算法生成的密钥较小，安全性更高）<br>
+  ssh-keygen 命令用于为 ssh 生成、管理和转换认证密钥，它支持 RSA 和 DSA 两种认证密钥。（较新的 OpenSSH 版本中，可以使用 ECDSA 密钥，这种数字签名算法生成的密钥更小，安全性更高）<br>
 
-  列出 ssh-keygen 的部分常用参数
-* -t：指定生成密钥的类型，默认使用SSH2的RSA
+  **ssh-keygen 部分常用参数**
+* -t：指定生成密钥的类型，默认使用 SSH2 的 RSA
 * -f：指定生成密钥的文件路径，默认为 id_密钥类型（如：私钥 id_rsa ，公钥 id_rsa.pub）
 * -P：提供旧密语，空表示不需要密语
 * -N：提供新密语，空表示不需要密语
@@ -26,25 +26,25 @@ tags:
   使用 ssh-keygen 生成一对长度为 2048 bit 的 RSA 加密的密钥对，指定生成路径为 ~/.ssh/id_rsa 。
 
 ```shell
-$ ssh-keygen -t RSA -b 2048 -f ~/.ssh/id_rsa
-Generating public/private id_rsa key pair.
-Enter file in which to save the key (/home/username/.ssh/id_rsa):
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in /home/username/.ssh/id_rsa.
-Your public key has been saved in /home/username/.ssh/id_rsa.pub.
-The key's randomart image is:
-+--[RSA  2048]---+
-|     ..oB=.   .  |
-|    .    . . . . |
-|  .  .      . +  |
-| oo.o    . . =   |
-|o+.+.   S . . .  |
-|=.   . E         |
-| o    .          |
-|  .              |
-|                 |
-+-----------------+
+  $ ssh-keygen -t RSA -b 2048 -f ~/.ssh/id_rsa
+  Generating public/private id_rsa key pair.
+  Enter file in which to save the key (/home/username/.ssh/id_rsa):
+  Enter passphrase (empty for no passphrase):
+  Enter same passphrase again:
+  Your identification has been saved in /home/username/.ssh/id_rsa.
+  Your public key has been saved in /home/username/.ssh/id_rsa.pub.
+  The key's randomart image is:
+  +--[RSA  2048]---+
+  |     ..oB=.   .  |
+  |    .    . . . . |
+  |  .  .      . +  |
+  | oo.o    . . =   |
+  |o+.+.   S . . .  |
+  |=.   . E         |
+  | o    .          |
+  |  .              |
+  |                 |
+  +-----------------+
 ```
 
 ## 2. 保护密钥对
