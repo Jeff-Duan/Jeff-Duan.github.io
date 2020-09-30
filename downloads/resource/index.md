@@ -3,6 +3,8 @@ layout: page
 title: Resource Downloads
 ---
 
+[Algorithm](algorithm)
+
 [Android](android)
 
 [Git](git)
@@ -14,3 +16,13 @@ title: Resource Downloads
 [Shell](shell)
 
 [SSH](ssh)
+
+[MySQL](mysql)
+
+[Redis](redis)
+
+[Os](os)
+
+[Resume](resume)
+
+[Investment](investment)
