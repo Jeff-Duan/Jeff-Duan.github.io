@@ -1,0 +1,27 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Jeff Duan</title>
+  <link href="http://Jeff-Duan.github.io/blog/atom.xml" rel="self"/>
+  <link href="http://Jeff-Duan.github.io/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://Jeff-Duan.github.io/</id>
+  <author>
+    <name>Jeff Duan</name>
+    <email>duanjianhui.me@gmail.com</email>
+  </author>
+
+  {% for post in site.posts limit:10 %}
+    <entry>
+      <title>{{ post.title }}</title>
+      <link href="http://Jeff-Duan.github.io{{ post.url }}"/>
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <id>http://Jeff-Duan.github.io{{ post.id }}</id>
+      <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+  {% endfor %}
+
+</feed>
