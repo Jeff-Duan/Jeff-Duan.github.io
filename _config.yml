@@ -24,13 +24,13 @@ nav:
   - title: "Home"
     url: "/"
   - title: "Talks"
-    url: "/talks"
-  - title: "Diaries"
-    url: "/pages/diaries"
+    url: "/pages/talks"
   - title: "Downloads"
     url: "/pages/downloads"
+  - title: "Live"
+    url: "/pages/live"
   - title: "About"
-    url: "/about"
+    url: "/pages/about"
 
 # Author information
 author:

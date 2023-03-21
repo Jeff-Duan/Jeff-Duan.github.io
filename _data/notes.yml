@@ -1,0 +1,10 @@
+- name: "Love"
+  date: 2023-03-21
+  location: CHINA, CN
+  talks:
+    - url: /pages/live/2023-03-01-reopening/
+      title: "重拾"
+    - url: /pages/live/2023-03-10-remember/
+      title: "回忆"
+    - url: /pages/live/2023-03-19-confess/
+      title: "告白"
