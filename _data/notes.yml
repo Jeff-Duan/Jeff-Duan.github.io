@@ -2,20 +2,18 @@
   date: 2023-03-21
   location: CHINA, CN
   talks:
-    - url: /pages/live/2023-03-01-reopening/
+    - url: /pages/live/2023-03-01/
       title: "重拾"
-    - url: /pages/live/2023-03-10-remember/
-      title: "回忆"
-    - url: /pages/live/2023-03-19-confess/
-      title: "告白"
 
 - name: "Love"
   date: 2023-03-21
   location: CHINA, CN
   talks:
-    - url: /pages/live/2023-03-01-reopening/
+    - url: /pages/live/2023-03-01/
       title: "重拾"
-    - url: /pages/live/2023-03-10-remember/
+    - url: /pages/live/2023-03-10/
       title: "回忆"
-    - url: /pages/live/2023-03-19-confess/
+    - url: /pages/live/2023-03-19/
       title: "告白"
+    - url: /pages/live/2023-04-12/
+      title: "迷失感重现了"
